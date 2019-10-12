@@ -1,17 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import App from './container/App'
+import configureStore from "./store"
+import App from './App'
+
+const store = configureStore();
 
 const render = () => {
 	ReactDOM.render(
-		<App />,
+		<App store={store} />,
 		document.getElementById('root')
 	)
 }
 
 if (module.hot) {
-	module.hot.accept('./container/App', () => {
+	module.hot.accept('./App', () => {
 		render()
 	})
 }
