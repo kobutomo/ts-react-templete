@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-template",
+  "version": "1.0.0",
+  "description": "react and typescript boiler template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "author": "Tomoro Nishida",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-scripts": "^3.2.0",
+    "redux": "^4.0.4",
+    "styled-components": "^4.4.0",
+    "webpack": "^4.41.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-redux": "^7.1.4",
+    "@types/redux": "^3.6.0",
+    "@types/styled-components": "^4.1.19",
+    "@types/webpack-env": "^1.14.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "^6.5.1",
+    "eslint-config-react-app": "^5.0.2",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-env": "^0.8.0"
+  }
+}
