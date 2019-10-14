@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/index.tsx",
   stats: "minimal",
   output: {
-    path: `${__dirname}/dist`,
+    path: `${__dirname}/public/js`,
     filename: "[name].js",
     // sourceMapFilename: '[name].[hash:8].map',
     publicPath: "/js/",
